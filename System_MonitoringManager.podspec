@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "监测CPU、GPU、内存、帧率、网络速率."
-  spec.homepage     = "https://github.com/woshicainiaohahaha/MonitoringManager"
+  spec.homepage     = "https://github.com/woshicainiaohahaha/System_MonitoringManager"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/woshicainiaohahaha/MonitoringManager.git", :tag => "0.0.1" }
+     spec.source       = { :git => "https://github.com/woshicainiaohahaha/System_MonitoringManager.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "System_MonitoringManager/**/*.{h,m}"
+    spec.source_files  = 'System_MonitoringManager/**/*.h'
 
   # spec.public_header_files = "Classes/**/*.h"
 
