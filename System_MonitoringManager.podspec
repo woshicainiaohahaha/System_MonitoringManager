@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-    spec.source_files  = 'System_MonitoringManager/**/*.h'
+    spec.source_files  = 'ProjectMonitoring/MonitoringManager/*.{h,m}'
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -113,7 +113,9 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-    spec.framework = 'IOKit'
+    spec.frameworks = 'IOKit','UIKit','Foundation','CoreFoundation'
+    spec.vendored_frameworks = 'ProjectMonitoring/MonitoringManager/*.framework'
+
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
